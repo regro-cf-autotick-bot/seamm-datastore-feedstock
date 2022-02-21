@@ -1,6 +1,6 @@
 {% set name = "seamm-datastore" %}
-{% set version = "2022.2.1" %}
-{% set sha256 = "0fc2d9b29d42a0583242e54f8485d9b9ac406a0fce5368932abe0c980be36a0d" %}
+{% set version = "2022.2.21" %}
+{% set sha256 = "a1c867142ef6d5601ffea9e74f1c2b0625a88157a10c693cc13255085a9a76c2" %}
 
 package:
   name: {{ name|lower }}
