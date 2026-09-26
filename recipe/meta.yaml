@@ -1,17 +1,17 @@
 {% set name = "seamm-datastore" %}
-{% set version = "2026.8.2" %}
-{% set sha256 = "ce10b547d42582c2b7e94dbc258aa9913b5df8074bd5bdd2dd1e9ee4d5fd1897" %}
+{% set version = "2026.9.25" %}
+{% set sha256 = "57e98e0d015171f1fe34b797ff6bc21c38c64544320b56ce75ce23e18a5970bc" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/s/seamm-datastore/seamm_datastore-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/s/seamm-datastore/seamm_datastore-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
